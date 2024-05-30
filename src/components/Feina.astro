@@ -1,0 +1,36 @@
+---
+
+
+const {dades} = Astro.props;
+
+const {posicio, descripcio, empresa, data, slug, numero} = dades;
+
+
+---
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button bg-info-subtle" type="button" data-bs-toggle="collapse" data-bs-target=`#panelsStayOpen-collapse${numero}` aria-expanded="true" aria-controls=`panelsStayOpen-collapse${numero}`>
+        {posicio}
+      </button>
+    </h2>
+    <div id=`panelsStayOpen-collapse${numero}` class=`accordion-collapse collapse`>
+      <div class="accordion-body">
+        <ul>
+          <li>
+            <strong>{empresa}.</strong><br>
+          </li>
+          <li>
+            {data}
+          </li>
+          <li>
+            {descripcio}
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+  
+    </div>

@@ -1,0 +1,72 @@
+{
+    "personal": {
+      "nom": "Gerard Bellatriu Torres",
+      "telefon": "+34 692 820 108",
+      "data_naixement": "1997-08-19",
+      "adreça": "Carrer Confraria de Sant Elm, 18, 1r 4a",
+      "població": "Mataró"
+    },
+    "academic": [
+      {
+        "nom": "CFGM Sistemes Microinformàtics i Xarxes",
+        "data": "2016-2018",
+        "lloc": "Institut Thos i Codina",
+        "slug": "cfgm-smix-thos-i-cdina"
+      },
+      {
+        "nom": "CFGS Desenvolupament d'Aplicacions Web",
+        "data": "2019-2022",
+        "lloc": "Institut Thos i Codina",
+        "slug": "cfgs-daw-thos-i-codina"
+      },
+      {
+        "nom": "Curs de Desenvolupament Web Full Stack",
+        "data": "2024",
+        "lloc": "Fundació Esplai",
+        "slug": "curs-desenvolupament-web-full-stack"
+      }
+    ],
+    "laboral": [
+      {"posicio": "Desenvolupador Web",
+      "empresa": "Arco Interactiva",
+      "data": "2022-2023",
+      "descripcio": "Desenvolupament de solucions web a mida per a clients empresarials.",
+      "slug": "desenvolupador-web-arco-interactiva",
+      "numero": "One"
+        
+      },
+      {
+        "posicio": "Desenvolupador de Programari",
+        "empresa": "Farandsoft S.L.",
+        "data": "2020",
+        "descripcio": "Desenvolupament de solucions de programari a mida per a clients empresarials.",
+        "slug": "desenvolupador-de-programari-farandsoft",
+        "numero": "Two"
+      },
+      {
+        "posicio": "Peó",
+        "empresa": "FCC Mataró Neta",
+        "data": "2018-2020",
+        "descripcio": "Neteja de mercats.",
+        "slug": "peo-fcc-mataro-neta",
+        "numero": "Three"
+      },
+      {
+        "posicio": "Dependent",
+        "empresa": "KFC Mataró Parc",
+        "data": "2020",
+        "descripcio": "Atenció al client, preparació de comandes.",
+        "slug": "dependent-kfc-mataro-parc",
+        "numero": "Four"
+      }
+    ],
+    "aficions": [
+      "Cuinar",
+      "Viatjar",
+      "Videojocs",
+      "Passar temps amb amics",
+      "Cinema",
+      "Competir"
+    ]
+  }
+  
